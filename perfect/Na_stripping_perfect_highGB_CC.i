@@ -1,4 +1,4 @@
-#Case: Perfect interface with highGB separator
+#Case: Perfect interface cases with a high-conductivity SE separator
 
 ################################################
 # Input parameters to setup the mesh
