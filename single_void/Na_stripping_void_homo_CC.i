@@ -44,7 +44,7 @@ real_time = ${units 2 h -> s} #s
 # Parameters needed for setting the BC
 ###################################################################
 
-applied_current_density = 10 #A/m2
+applied_current_density = 5 #A/m2
 #applied_flux = ${fparse applied_current_density/F} #mol/(m2 s)
 
 flux_calc = ${fparse DC_metal/(Vm*characteristic_length)} #mol/(m2 s)
