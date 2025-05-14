@@ -6,4 +6,4 @@ In this project, a diffuse interface model is proposed to simulate the concurren
 The governing equations of the model are implemented using [MOOSE](https://mooseframework.inl.gov/), an open-source finite element framework.
 For running the code, the user can create a MOOSE-based [application](https://mooseframework.inl.gov/getting_started/new_users.html) and enable the phase field and solid mechanics modules. The user can then run the input files within this repository using the following command:
 
-`mpiexec -n (# of CPUs) ./yourapp-opt -i input_file.i`
+`mpiexec -n (# of CPUs) $EXECUTABLE_DIR/yourapp-opt -i $INPUTFILE_DIR/input_file.i`
