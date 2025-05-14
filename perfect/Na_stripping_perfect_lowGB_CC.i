@@ -1,4 +1,5 @@
-#Case: Perfect interface with low grain boundary conductivity separator
+#Case:  Perfect interface cases with a low-conductivity SE separator
+
 ################################################
 # Input parameters to setup the mesh
 interface_width        = 0.5e-6  #m
