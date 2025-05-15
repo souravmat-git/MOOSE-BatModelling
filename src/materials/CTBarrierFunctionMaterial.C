@@ -21,17 +21,6 @@ CTBarrierFunctionMaterial::validParams()
 CTBarrierFunctionMaterial::CTBarrierFunctionMaterial(const InputParameters & parameters)
  :CrossTermBarrierFunctionBaseWij(parameters)
  {
-   // error out if W_ij is not symmetric
-   //for (unsigned int i = 0; i < _num_eta; ++i)
-   //for (unsigned int j = 0; j < _num_eta; ++j)
-   // {
-  //    if (i==j)
-  //        _W_ij[_num_eta * i + j] = 0;
-  //      else
-  //        _W_ij[_num_eta * i + j] = 1;
-  //  }
-
-
  }
 
 void
