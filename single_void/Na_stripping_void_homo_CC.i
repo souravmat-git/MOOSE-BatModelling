@@ -1,3 +1,6 @@
+#Case: Single void at the electrode/solid electrolyte interface 
+# with a homogeneous SE separator.
+
 ################################################
 # Input parameters to setup the mesh
 interface_width        = 0.5e-6  #m
