@@ -785,15 +785,6 @@ initial_metal_sei  = ${fparse longitudnal_length/characteristic_length/2.0  - 18
     expression = 0
   []
 
-  #[driving_force_pore_metal]
-  #  type = ParsedMaterial
-  #  material_property_names = 'omegaa omegab dhmetal_deta_void:=D[hb,etaa0]'
-  #  property_name = rate_of_change_of_void
-  #  expression = 'dhmetal_deta_void*${fparse Ec/Vm}*(omegab - omegaa)'
-  #  outputs = none
-  #  block = 0
-  #[]
-
   ##############################################
   # Material properties for the separator phase #
   ###############################################
