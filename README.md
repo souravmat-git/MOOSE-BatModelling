@@ -8,4 +8,4 @@ For running the code, the user can build a MOOSE-based [application](https://moo
 
 `mpiexec -n (# of CPUs) /dir/to/your/app/yourapp-opt -i /dir/to/your/inputfile/input_file.i`
 
-This repository also contains additional source codes specifically developed for this project. These codes are located within the 'src' folder. It is required to compile these codes within your MOOSE-based application before executing the aforementioned command. 
+This repository also contains additional source codes specifically developed for this project. These codes are located within the 'src' folder. It is necessary to compile these codes within your MOOSE-based application before executing the aforementioned command. 
