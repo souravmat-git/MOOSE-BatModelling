@@ -1,4 +1,4 @@
-#Case: Perfect interface with homogeneous separator
+#Case:  Perfect interface cases with a homogeneous SE separator
 
 ################################################
 # Input parameters to setup the mesh
