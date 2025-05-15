@@ -6,7 +6,7 @@ In this project, a diffuse interface model is proposed to simulate the concurren
 The governing equations of the model are implemented using [MOOSE](https://mooseframework.inl.gov/), an open-source finite element framework.
 For running the code, the user can build a MOOSE-based [application](https://mooseframework.inl.gov/getting_started/new_users.html) by enabling the phase field and solid mechanics modules. Once the executable (your-app-opt) of your MOOSE-based application is generated, the user can run the input files using the following command:
 
-`mpiexec -n (# of CPUs) /dir/to/your/executable/your-app-opt -i /dir/to/your/inputfile/input_file.i`
+`mpiexec -n <# of CPUs> /dir/to/your/executable/your-app-opt -i /dir/to/your/inputfile/input_file.i`
 
 This repository also contains additional custom objects (like `Materials` and `Functions`) specifically developed for this project. The header and source files of these custom objects are located within the `include` and `src` directory of this repository, respectively. It is necessary to compile these custom objects within your MOOSE-based application before executing the aforementioned command. To compile these objects, the user needs to register the objects using the following macro
 
