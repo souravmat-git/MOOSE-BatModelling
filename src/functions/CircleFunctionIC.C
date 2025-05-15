@@ -17,9 +17,6 @@ CircleFunctionIC::validParams()
   params.addParam<Real>("inside_value", 1.0, "Inside value");
   params.addParam<Real>("outside_value", 0.0,  "Outside value");
   params.addRequiredParam<FileName>("table_name", "Table with x y r");
-  //params.addParam<std::vector<Real>>("radii", "Radius");
-  //params.addParam<std::vector<Real>>("x", "x-coordinates of circle");
-  //params.addParam<std::vector<Real>>("y", "y-coordinates of circle");
   return params;
 }
 
@@ -30,9 +27,6 @@ CircleFunctionIC::CircleFunctionIC(const InputParameters & parameters)
    _table_name(getParam<FileName>("table_name")),
    _table_reader(_table_name, &_communicator),
    _col_names(_table_reader.getNames())
-   //_radii(getParam<std::vector<Real>>("radii")),
-   //_x(getParam<std::vector<Real>>("x")),
-   //_y(getParam<std::vector<Real>>("y"))
 {
 
   //Lines begining with # are comments
