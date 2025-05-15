@@ -7,3 +7,5 @@ The governing equations of the model are implemented using [MOOSE](https://moose
 For running the code, the user can create a MOOSE-based [application](https://mooseframework.inl.gov/getting_started/new_users.html) and enable the phase field and solid mechanics modules. The user can then run the input files within this repository using the following command:
 
 `mpiexec -n (# of CPUs) /dir/to/your/app/yourapp-opt -i /dir/to/your/inputfile/input_file.i`
+
+This repository also contains additional source codes specifically developed for this project. These codes are located within the 'src' folder. It is required to compile these codes within your MOOSE-based application before executing the aforementioned command. 
