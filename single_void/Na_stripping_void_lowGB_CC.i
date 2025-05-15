@@ -1,3 +1,6 @@
+#Case: Single void at the electrode/SE separator interface.
+#SE separator: Polycrystalline with low-conductivity GBs.
+
 ################################################
 # Input parameters to setup the mesh
 interface_width        = 0.5e-6  #m
