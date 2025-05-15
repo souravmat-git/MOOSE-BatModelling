@@ -8,15 +8,15 @@
 //* https://www.gnu.org/licenses/lgpl-2.1.html
 
 #pragma once
-#include "SwitchingFunctionMultiPhaseMaterial.h"
+#include "CrossTermBarrierFunctionBaseWij.h"
 
 // Forward Declarations
-class ABSwitchingFunctionMaterial;
+class CTBarrierFunctionMaterial;
 
-class ABSwitchingFunctionMaterial : public SwitchingFunctionMultiPhaseMaterial
+class CTBarrierFunctionMaterial : public CrossTermBarrierFunctionBaseWij
 {
 public:
-  ABSwitchingFunctionMaterial(const InputParameters & parameters);
+  CTBarrierFunctionMaterial(const InputParameters & parameters);
 
   static InputParameters validParams();
 
@@ -24,4 +24,5 @@ protected:
 
   //Member function that returns the property value at each quadrature point
   virtual void computeQpProperties() override;
+
 };
