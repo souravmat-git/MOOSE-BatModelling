@@ -8,7 +8,7 @@
 //* https://www.gnu.org/licenses/lgpl-2.1.html
 
 #include "CTBarrierFunctionMaterial.h"
-registerMooseObject("sequoiaApp", CTBarrierFunctionMaterial);
+registerMooseObject("yourApp", CTBarrierFunctionMaterial);
 
 //template<>
 InputParameters
