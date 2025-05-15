@@ -1,5 +1,5 @@
-#Case: Single void at the electrode/solid electrolyte interface 
-# with a homogeneous SE separator.
+#Case: Single void at the electrode/SE separator interface.
+#SE separator: Homogeneous.
 
 ################################################
 # Input parameters to setup the mesh
