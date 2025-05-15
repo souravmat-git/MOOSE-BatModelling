@@ -8,6 +8,6 @@ For running the code, the user can build a MOOSE-based [application](https://moo
 
 `mpiexec -n <# of CPUs> /dir/to/your/executable/your-app-opt -i /dir/to/your/inputfile/input_file.i`
 
-This repository also contains additional custom objects (like `Materials` and `Functions`) specifically developed for this project. The header and source files of these custom objects are located within the `include` and `src` directories of this repository, respectively. It is necessary to compile these custom objects within your MOOSE-based application before executing the aforementioned command. To compile these objects, the user needs to register the objects using the following macro
+This repository also contains additional custom objects (like `Materials` and `Functions`) specifically developed for this project. The header and source files of these custom objects are located within the `include` and `src` directories of this repository, respectively. It is necessary to compile these custom objects within your MOOSE-based application before executing the aforementioned command. To successfully link these objects to your application, the user needs to register the objects using the following macro:
 
 `registerMooseObject(<AppName>, <ClassName>)`
