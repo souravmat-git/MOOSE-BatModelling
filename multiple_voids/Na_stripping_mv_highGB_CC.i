@@ -1,3 +1,6 @@
+#Case: Multiple voids at the electrode/SE separator interface.
+#SE separator: Polycrystalline with high-conductivity GBs.
+
 ################################################
 # Input parameters to setup the mesh
 interface_width        = 0.5e-6  #m
